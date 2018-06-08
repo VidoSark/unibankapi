@@ -1,7 +1,11 @@
 {
-  "name": "leafbkapi",
+  "name": "unibankapi",
   "version": "0.0.0",
-  "private": true,
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "main": "index.js",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -20,5 +24,15 @@
     "nodemon": "^1.17.3",
     "passport": "*",
     "passport-jwt": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VidoSark/unibankapi"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
